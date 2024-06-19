@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Lib A Build",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/libraries/library-a",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": ["run-script", "build"]
+        }
+    ]
+}

@@ -51,7 +51,6 @@ export default function buildConfig(opt = {}) {
             ],
             // external,
             plugins: [
-                nodeExternals(),
                 dts(),
                 replaceDef,
             ],
