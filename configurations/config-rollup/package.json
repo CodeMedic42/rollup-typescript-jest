@@ -1,0 +1,14 @@
+{
+    "name": "@config/rollup",
+    "version": "5.0.0-rc.0",
+    "main": "./index.mjs",
+    "private": true,
+    "dependencies": {
+        "@rollup/plugin-typescript": "^11.1.6",
+        "fs-extra": "^11.2.0",
+        "lodash-es": "^4.17.21",
+        "rollup-plugin-dts": "^6.1.1",
+        "rollup-plugin-node-externals": "7.1.2",
+        "tslib": "2.6.3"
+    }
+}

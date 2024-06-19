@@ -1,0 +1,29 @@
+
+> library-a@1.0.0 build /Users/miclec/source/github/codemedic42/rollup-typescript-jest/libraries/library-a
+> npm run clean && npm run build:js
+
+
+> library-a@1.0.0 clean
+> rimraf dist
+
+
+> library-a@1.0.0 build:js
+> pnpm rollup --config rollup.config.mjs
+
+[36m
+[1m/Users/miclec/source/github/codemedic42/rollup-typescript-jest/libraries/library-a/src/index.ts[22m → [1mdist[22m...[39m
+[1m[33m(!) [plugin typescript] src/total.ts (1:17): @rollup/plugin-typescript TS2307: Cannot find module 'library-b' or its corresponding type declarations.[39m[22m
+[1m/Users/miclec/source/github/codemedic42/rollup-typescript-jest/libraries/library-a/src/total.ts:1:17[22m
+[90m
+[7m1[0m import sum from 'library-b';
+[7m [0m [91m                ~~~~~~~~~~~[0m
+[39m
+[1m[33m(!) Unresolved dependencies[39m[22m
+[90mhttps://rollupjs.org/troubleshooting/#warning-treating-module-as-external-dependency[39m
+[1mlibrary-b[22m (imported by "src/total.ts")
+[32mcreated [1mdist[22m in [1m478ms[22m[39m
+[36m
+[1m/Users/miclec/source/github/codemedic42/rollup-typescript-jest/libraries/library-a/src/index.ts[22m → [1mdist[22m...[39m
+[1m[33m(!) Generated an empty chunk[39m[22m
+"index"
+[32mcreated [1mdist[22m in [1m216ms[22m[39m

@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "lerna run test --parallel --stream",
+    "startTime": "2024-06-19T15:29:04.862Z",
+    "endTime": "2024-06-19T15:29:07.393Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "library-b:test",
+      "target": "test",
+      "projectName": "library-b",
+      "hash": "2374686429297859773",
+      "startTime": "2024-06-19T15:29:04.868Z",
+      "endTime": "2024-06-19T15:29:07.332Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "library-a:test",
+      "target": "test",
+      "projectName": "library-a",
+      "hash": "6465815118388732710",
+      "startTime": "2024-06-19T15:29:04.868Z",
+      "endTime": "2024-06-19T15:29:07.390Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

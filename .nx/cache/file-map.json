@@ -1,0 +1,148 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.3.3",
+  "deps": {
+    "rimraf": "^5.0.7",
+    "rollup": "^4.18.0",
+    "typescript": "^5.4.5"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "package.json",
+        "hash": "15797474600830120782"
+      },
+      {
+        "file": "README.md",
+        "hash": "12140178603953268067"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7612852195733404959"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "6712353620539742197"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3009140142791806673"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "9669753358098705506"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "9020191423217165169"
+      }
+    ],
+    "projectFileMap": {
+      "@config/rollup": [
+        {
+          "file": "configurations/config-rollup/.DS_Store",
+          "hash": "14084404632488199927"
+        },
+        {
+          "file": "configurations/config-rollup/index.mjs",
+          "hash": "14384515442810059536"
+        },
+        {
+          "file": "configurations/config-rollup/package.json",
+          "hash": "7398990668763369252",
+          "deps": [
+            "npm:@rollup/plugin-typescript",
+            "npm:fs-extra",
+            "npm:lodash-es",
+            "npm:rollup-plugin-dts",
+            "npm:rollup-plugin-node-externals",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "configurations/config-rollup/plugin-asset-resolver.mjs",
+          "hash": "9820257248416433393"
+        },
+        {
+          "file": "configurations/config-rollup/plugin-replace.mjs",
+          "hash": "16220789323905577108"
+        }
+      ],
+      "library-a": [
+        {
+          "file": "libraries/library-a/jest.config.js",
+          "hash": "17968837833244186895"
+        },
+        {
+          "file": "libraries/library-a/package.json",
+          "hash": "18285489143345906985",
+          "deps": [
+            "npm:lodash",
+            "library-b",
+            "@config/rollup",
+            "npm:@types/jest",
+            "npm:@types/lodash",
+            "npm:jest",
+            "npm:ts-jest"
+          ]
+        },
+        {
+          "file": "libraries/library-a/rollup.config.mjs",
+          "hash": "16584241744008400266"
+        },
+        {
+          "file": "libraries/library-a/src/index.ts",
+          "hash": "14507916703879678192"
+        },
+        {
+          "file": "libraries/library-a/src/total.test.ts",
+          "hash": "9931697863156679661"
+        },
+        {
+          "file": "libraries/library-a/src/total.ts",
+          "hash": "5202616897070982205"
+        },
+        {
+          "file": "libraries/library-a/tsconfig.json",
+          "hash": "16494187850581081638"
+        }
+      ],
+      "library-b": [
+        {
+          "file": "libraries/library-b/jest.config.js",
+          "hash": "17968837833244186895"
+        },
+        {
+          "file": "libraries/library-b/package.json",
+          "hash": "5864118973406966003",
+          "deps": [
+            "npm:lodash",
+            "@config/rollup",
+            "npm:@types/jest",
+            "npm:@types/lodash",
+            "npm:jest",
+            "npm:ts-jest"
+          ]
+        },
+        {
+          "file": "libraries/library-b/rollup.config.mjs",
+          "hash": "16584241744008400266"
+        },
+        {
+          "file": "libraries/library-b/src/index.test.ts",
+          "hash": "11133637303202137672"
+        },
+        {
+          "file": "libraries/library-b/src/index.ts",
+          "hash": "2498637501728826449"
+        },
+        {
+          "file": "libraries/library-b/tsconfig.json",
+          "hash": "16494187850581081638"
+        }
+      ]
+    }
+  }
+}

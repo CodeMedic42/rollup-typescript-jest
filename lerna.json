@@ -1,0 +1,20 @@
+{
+  "version": "5.0.0-rc.1",
+  "npmClient": "npm",
+  "command": {
+    "publish": {
+      "message": "skip: chore(release)"
+    }
+  },
+  "ignoreChanges": [
+    ".env.defaults",
+    ".eslint*",
+    ".prettierrc",
+    "*.md",
+    "*.test.js"
+  ],
+  "packages": [
+    "configurations/*",
+    "libraries/*"
+  ]
+}
