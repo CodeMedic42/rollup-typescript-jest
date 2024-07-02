@@ -1,3 +1,3 @@
 import total from './total';
 
-total('Apples', 1, 2);
+console.log(total('Apples', 1, 2));
